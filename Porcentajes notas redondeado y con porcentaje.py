@@ -1,0 +1,13 @@
+suspensos = int(input("Indica el número de suspensos "))
+aprobados = int(input("Indica el número de aprobados "))
+notables = int(input("Indica el número de notables "))
+sobresalientes = int(input("Indica el número de sobresalientes "))
+total = suspensos +  aprobados + notables + sobresalientes
+suspensos_redondeado = round((suspensos/total)*100, 2)
+aprobados_redondeado = round((aprobados/total)*100, 2)
+notables_redondeado = round((notables/total)*100, 2)
+sobresalientes_redondeado = round((sobresalientes/total)*100, 2)
+print ("El porcentaje de suspensos es: ", suspensos_redondeado, "%")
+print ("El porcentaje de suspensos es: ", aprobados_redondeado, "%")
+print ("El porcentaje de suspensos es: ", notables_redondeado, "%")
+print ("El porcentaje de suspensos es: ", sobresalientes_redondeado, "%")
