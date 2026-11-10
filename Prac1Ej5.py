@@ -1,0 +1,5 @@
+print ("Voy a ayudarte a calcular la sensación térmica actual. ")
+T = int(input("Dime la temperatura del aire en grados Celsius: "))
+V = int(input("Dime la velocidad del viento en kilometros por hora (km/h): "))
+Ts = (13.12 + (0.6215*T) - (11.37*(V**0.16)) + (0.3965*T*(V**0.16)))
+print(round(Ts, 2))
